@@ -258,7 +258,7 @@ doc.Accept(tinydom.NewSimplePrinter(os.Stdout))
 
 
 ##  BOM
-golang的xml解析器自身还不支持BOM，所以本解析器还无法解析带BOM头的xml文件。
+支持带BOM头的xml文件。
 
 ## Changelog
 
@@ -285,3 +285,6 @@ golang的xml解析器自身还不支持BOM，所以本解析器还无法解析�
 - 将两个全局量PreetyPrint改名为Print在前:因为发现Print在前更容易记忆
 - 完善文档
 
+## Thanks
+
+Thanks alecthomas for providing the [original resource](https://github.com/tinyhubs/tinydom).
