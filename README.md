@@ -287,4 +287,4 @@ doc.Accept(tinydom.NewSimplePrinter(os.Stdout))
 
 ## Thanks
 
-Thanks alecthomas for providing the [original resource](https://github.com/tinyhubs/tinydom).
+Thanks tinyhubs for providing the [original resource](https://github.com/tinyhubs/tinydom).
